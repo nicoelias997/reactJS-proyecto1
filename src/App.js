@@ -2,8 +2,9 @@ import React from "react";
 
 function App() {
   return (
-    <div> 
+    <div>
      <h1>Hola mundo React</h1>
+     <p>Bienvenidos a mi sitio web</p>
     </div>
   );
 }
