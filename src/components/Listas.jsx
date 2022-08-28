@@ -2,7 +2,11 @@ import React, {useState} from 'react'
 
 const Listas = () => {
 
-    const estadoInicial = [1,2,3,4,5,6,7,8,9]
+    const estadoInicial = [
+        {id: 1, texto: "Tarea 1"},
+        {id: 2, texto: "Tarea 2"},
+        {id: 3, texto: "Tarea 3"}
+    ]
 
     const [lista, setLista] = useState(estadoInicial)
 
@@ -12,7 +16,7 @@ const Listas = () => {
        <h2>Listas</h2>
         {
             lista.map( (item, index) => (
-                <h4 key={index}>{item}</h4>
+                <h4 key={item.id}>{item.texto}</h4>
             ))
         }
     </div>
