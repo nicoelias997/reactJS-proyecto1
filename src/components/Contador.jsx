@@ -15,6 +15,11 @@ const Contador = () => {
         <h2>Contador</h2>
         <h3>Nuestro numero aumentando: {contador}</h3>
         <button onClick={() => aumentar()}>Aumentar</button>
+        <h4>
+            {
+                contador > 2 ? "Es mayor a 2" : "Es menor a 2"
+            }
+        </h4>
     </div>
   )
 }
