@@ -1,10 +1,13 @@
 import React from "react";
-
+import Parrafo from "./components/Parrafo"
 function App() {
   return (
     <div>
      <h1>Hola mundo React</h1>
-     <p>Bienvenidos a mi sitio web</p>
+     <Parrafo></Parrafo>
+     <Parrafo></Parrafo>
+     <Parrafo></Parrafo>
+     <Parrafo></Parrafo>
     </div>
   );
 }
