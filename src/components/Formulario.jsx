@@ -13,10 +13,12 @@ const Formulario = () => {
             <input type="text"
                 placeholder='Ingrese fruta'
                 className='form-control mb-2'
+                onChange={e => setFruta(e.target.value)}
             />
             <input type="text"
                 placeholder='Ingrese descripcion'
                 className='form-control mb-2'
+                onChange={e => setDescripcion(e.target.value)}
             />
             <button className="btn btn-primary btn-block">Agregar</button>
         </form>
